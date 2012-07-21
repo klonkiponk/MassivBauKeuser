@@ -1,0 +1,104 @@
+/* line 17, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 20, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1; }
+
+/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 101, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 114, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 1, ../sass/layout/_layout.scss */
+div.wrapper {
+  width: 960px;
+  margin: 0px auto; }
+
+/* line 6, ../sass/layout/_layout.scss */
+header {
+  background: yellow; }
+
+/* line 9, ../sass/layout/_layout.scss */
+nav {
+  background: green; }
+
+/* line 12, ../sass/layout/_layout.scss */
+article {
+  background: orange; }
+
+/* line 15, ../sass/layout/_layout.scss */
+footer {
+  background: fuchsia; }
+
+/* line 1, ../sass/fonts/_fonts.scss */
+body {
+  font-family: Arial, sans-serif; }
+
+/* line 1, ../sass/content/_content.scss */
+h1 {
+  font-size: 2em; }
+
+/* line 4, ../sass/content/_content.scss */
+h2 {
+  font-size: 1.8em; }
+
+/* line 7, ../sass/content/_content.scss */
+h3 {
+  font-size: 1.6em; }
+
+/* line 10, ../sass/content/_content.scss */
+h4 {
+  font-size: 1.4em; }
+
+/* line 13, ../sass/content/_content.scss */
+h5 {
+  font-size: 1.2em; }
+
+/* line 16, ../sass/content/_content.scss */
+h6 {
+  font-size: 1.0em; }
