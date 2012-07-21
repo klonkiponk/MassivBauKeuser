@@ -54,26 +54,39 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-/* line 1, ../sass/layout/_layout.scss */
+/* line 7, ../sass/layout/_layout.scss */
 div.wrapper {
   width: 960px;
-  margin: 0px auto; }
-
-/* line 6, ../sass/layout/_layout.scss */
-header {
-  background: yellow; }
-
-/* line 9, ../sass/layout/_layout.scss */
-nav {
-  background: green; }
-
-/* line 12, ../sass/layout/_layout.scss */
-article {
-  background: orange; }
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: 1px solid #555555;
+  -webkit-box-shadow: 1px 1px 5px #333333;
+  -moz-box-shadow: 1px 1px 5px #333333;
+  box-shadow: 1px 1px 5px #333333; }
 
 /* line 15, ../sass/layout/_layout.scss */
+header {
+  background: yellow;
+  box-sizing: border-box; }
+
+/* line 19, ../sass/layout/_layout.scss */
+nav {
+  background: green;
+  width: 300px;
+  box-sizing: border-box;
+  float: left; }
+
+/* line 25, ../sass/layout/_layout.scss */
+article {
+  background: orange;
+  width: 658px;
+  box-sizing: border-box;
+  float: right; }
+
+/* line 31, ../sass/layout/_layout.scss */
 footer {
-  background: fuchsia; }
+  background: fuchsia;
+  box-sizing: border-box; }
 
 /* line 1, ../sass/fonts/_fonts.scss */
 body {
@@ -102,3 +115,7 @@ h5 {
 /* line 16, ../sass/content/_content.scss */
 h6 {
   font-size: 1.0em; }
+
+/* line 16, ../sass/style.scss */
+.clear {
+  clear: both; }
